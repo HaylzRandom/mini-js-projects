@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap');
+
+/* CSS Custom Properties */
+:root {
+    --lb-fill: #3498db;
+    --lb-empty: #e0e0e0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #f6f7fb;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 1.875em;
+    max-width: 100%;
+    width: 21.875em;
+}
+
+.progress-container::before {
+    content: '';
+    background-color: var(--lb-empty);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 0.25em;
+    width: 100%;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+.progress {
+    background-color: var(--lb-fill);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 0.25em;
+    width: 0;
+    z-index: -1;
+    transform: translateY(-50%);
+    transition: 0.4s ease;
+}
+
+.circle {
+    background-color: #fff;
+    color: #999;
+    border-radius: 50%;
+    border: 3px solid var(--lb-empty);
+    width: 1.875em;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+}
+
+.circle.active {
+    border-color: var(--lb-fill);
+}
+
+.btn {
+    background-color: var(--lb-fill);
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.875rem;
+    padding: 0.5em 1.875em;
+    margin: 0.3125em;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:disabled {
+    background-color: var(--lb-empty);
+    cursor: not-allowed;
+}
