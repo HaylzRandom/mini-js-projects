@@ -16,6 +16,12 @@ body {
 	margin: 0;
 }
 
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .counter-container {
 	display: flex;
 	flex-direction: column;
@@ -27,4 +33,10 @@ body {
 .counter {
 	font-size: 3.75rem;
 	margin-top: 0.625em;
+}
+
+@media (max-width: 580px) {
+	main {
+		flex-direction: column;
+	}
 }
