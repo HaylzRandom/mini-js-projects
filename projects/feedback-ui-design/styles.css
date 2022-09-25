@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fef9f2;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+}
+
+.panel-container {
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+	font-size: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 1.875em;
+	max-width: 25em;
+}
+
+.panel-container strong {
+	line-height: 20px;
+}
+
+.ratings-container {
+	display: flex;
+	margin: 1.25em 0;
+}
+
+.rating {
+	flex: 1;
+	cursor: pointer;
+	padding: 1.25em;
+	margin: 0.625em 0.3125em;
+}
+
+.rating:hover,
+.rating.active {
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fa-regular {
+	font-size: 2.5rem;
+	font: 900;
+}
+
+.fa-face-frown:hover {
+	color: red;
+}
+
+.fa-face-meh:hover {
+	color: orange;
+}
+
+.fa-face-smile:hover {
+	color: greenyellow;
+}
+
+.rating small {
+	color: #555;
+	display: inline-block;
+	margin: 0.625em 0 0;
+}
+
+.rating:hover small,
+.rating.active small {
+	color: #111;
+}
+
+.btn {
+	background-color: #302d2b;
+	color: #fff;
+	border: 0;
+	border-radius: 4px;
+	padding: 0.75em 1.875em;
+	cursor: pointer;
+	font-family: inherit;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+.btn:active {
+	transform: scale(0.98);
+}
+
+.fa-heart {
+	color: red;
+	font-size: 1.875rem;
+	margin-bottom: 0.625em;
+}

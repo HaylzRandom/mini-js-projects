@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #516dff;
+	color: #fff;
+	font-family: 'Press Start 2P', sans-serif;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+	text-align: center;
+}
+
+.btn {
+	border: 0;
+	background-color: #fff;
+	color: #516dff;
+	padding: 0.9375em 1.25em;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+a {
+	color: #fff;
+}
+
+h1 {
+	line-height: 1.4;
+}
+
+.btn:hover {
+	opacity: 0.9;
+}
+
+.screen {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	transition: margin 0.5s ease-out;
+}
+
+.screen.up {
+	margin-top: -100vh;
+}
+
+.animals-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style-type: none;
+	padding: 0;
+}
+
+.animals-list li {
+	margin: 0.625em;
+}
+
+.choose-animal-btn {
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	cursor: pointer;
+	font-family: inherit;
+	width: 9.375em;
+	height: 9.375em;
+}
+
+.choose-animal-btn:hover {
+	background-color: #fff;
+	color: #516dff;
+}
+
+.choose-animal-btn:active {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.choose-animal-btn img {
+	width: 6.25em;
+	height: 6.25em;
+	object-fit: contain;
+}
+
+.game-container {
+	position: relative;
+}
+
+.time,
+.score {
+	position: absolute;
+	top: 1.25em;
+}
+
+.time {
+	left: 1.25em;
+}
+
+.score {
+	right: 1.25em;
+}
+
+.message {
+	line-height: 1.7;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	padding: 1.25em;
+	z-index: 100;
+	text-align: center;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -150%);
+	transition: transform 0.4s ease-in;
+}
+
+.message.visible {
+	opacity: 1;
+	transform: translate(-50%, 150%);
+}
+
+.animal {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 6.25em;
+	height: 6.25em;
+	position: absolute;
+	transform: translate(-50%, -50%) scale(1);
+	transition: transform 0.3s ease-in-out;
+}
+
+.animal.caught {
+	transform: translate(-50%, -50%) scale(0);
+}
+
+.animal img {
+	width: 6.25em;
+	height: 6.25em;
+	object-fit: contain;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Catch Game</title>
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body>
+		<main>
+			<div class="screen">
+				<h1>Catch the Animal!</h1>
+				<button class="btn" id="start-btn">Play Game</button>
+			</div>
+			<div class="screen">
+				<h1>What is your favourite animal?</h1>
+				<ul class="animals-list">
+					<li>
+						<button class="choose-animal-btn">
+							<p>Kitten</p>
+							<img
+								src="https://www.freepngimg.com/thumb/kitten/30403-6-kitten-image.png"
+								alt="Kitten"
+							/>
+						</button>
+					</li>
+					<li>
+						<button class="choose-animal-btn">
+							<p>Owl</p>
+							<img
+								src="https://www.freepngimg.com/thumb/owl/34608-7-owl-clipart.png"
+								alt="Owl"
+							/>
+						</button>
+					</li>
+					<li>
+						<button class="choose-animal-btn">
+							<p>Pig</p>
+							<img
+								src="https://www.freepngimg.com/thumb/pig/24693-6-pig-transparent.png"
+								alt="Pig"
+							/>
+						</button>
+					</li>
+					<li>
+						<button class="choose-animal-btn">
+							<p>Red Panda</p>
+							<img
+								src="https://www.freepngimg.com/thumb/red_panda/3-2-red-panda-png-clipart.png"
+								alt="Red Panda"
+							/>
+						</button>
+					</li>
+				</ul>
+			</div>
+
+			<div class="screen game-container" id="game-container">
+				<h3 id="time" class="time">Time: 00:00</h3>
+				<h3 id="score" class="score">Score: 0</h3>
+				<h5 id="message" class="message">
+					Still having fun? <br />
+					This will never end!
+				</h5>
+			</div>
+		</main>
+
+		<script src="./main.js"></script>
+	</body>
+</html>
