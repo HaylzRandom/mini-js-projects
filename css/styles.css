@@ -3,8 +3,12 @@
 body {
     font-family: 'Mulish', sans-serif;
     padding: 1.5em;
-    height: 100vh;
-    background-color: skyblue;
+    height: 100%;
+    /* background-color: #AE9ACF; */
+    background-image: linear-gradient(to right top, #ae9acf, #8e8bc2, #6b7cb4, #456ea4, #006093);
+    background-repeat: repeat;
+    background-size: cover;
+    color: #D5CABD;
 }
 
 a {
@@ -20,9 +24,10 @@ a {
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2em;
+    gap: 3em;
     width: 100%;
     text-align: center;
+    padding: 2em;
 }
 
 .project {
@@ -33,9 +38,13 @@ a {
         'links';
     grid-template-columns: 1fr;
     gap: 1em;
-    background-color: silver;
+    background-color: #006093;
+    color: #D5CABD;
     border-radius: 1em;
     overflow: hidden;
+    box-shadow: 13px 25px 35px -3px rgba(0, 0, 0, 0.58);
+    -webkit-box-shadow: 13px 25px 35px -3px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 13px 25px 35px -3px rgba(0, 0, 0, 0.58);
 }
 
 .project--img {
@@ -46,18 +55,28 @@ a {
 
 .project--title {
     grid-area: title;
-    font-size: 18px;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .project--links {
     grid-area: links;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding: 0.5em;
 }
 
 .project--github,
 .project--website {
-    font-size: 20px;
-    color: skyblue;
+    font-size: 25px;
+    color: inherit;
+    padding-bottom: 15px;
+}
+
+.project--website:hover,
+.project--website:focus,
+.project--github:hover,
+.project--github:hover {
+    color: #4A4453;
 }
