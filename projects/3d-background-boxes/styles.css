@@ -62,8 +62,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: 31.25em 31.25em;
 	position: relative;
-	height: 7.8125em;
-	width: 7.8125em;
+	height: 125px;
+	width: 125px;
 	transition: 0.4s ease;
 }
 
@@ -74,7 +74,7 @@ body {
 	top: 0.5em;
 	right: -0.9375em;
 	height: 100%;
-	width: 0.9375em;
+	width: 15px;
 	transform: skewY(45deg);
 }
 
@@ -84,7 +84,7 @@ body {
 	position: absolute;
 	bottom: -0.9375em;
 	left: 0.5em;
-	height: 0.9375em;
+	height: 15px;
 	width: 100%;
 	transform: skewX(45deg);
 }
