@@ -1,12 +1,11 @@
-# 3D Background Boxes
+# Expanding Cards
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that will display a single card expanded at a time
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a component that could be used to
+display a selection of images in a unique way
 
 ## Tech Stack
 
@@ -16,14 +15,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/expanding-cards.gif" alt="Expanding Cards Gif" width="500"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/expanding-cards.png" alt="Expanding Cards Screenshot" width="400" />
 
 ## License
 

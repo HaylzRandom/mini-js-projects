@@ -1,29 +1,28 @@
-# 3D Background Boxes
+# Feedack UI Design
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that will allow a user to submit their feedback through
+the provided form
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a component that allows an opinion to
+be chosen for feedback
 
 ## Tech Stack
 
-**Client:** HTML5, CSS3, JavaScript
+**Client:** HTML5, CSS3, JavaScript, Font Awesome
 
 ## Authors
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/feedback-ui-design.gif" alt="Feedback UI Design Gif" width="500"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Feedback-UI-Design.png" alt="Feedback UI Design Screenshot" width="600" />
 
 ## License
 
