@@ -1,16 +1,15 @@
-# 3D Background Boxes
+# Pokédex
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that will display the first 150 Pokémon of the Pokédex!
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a selection of cards that will display
+information taken from the PokéAPI
 
 ## Tech Stack
 
-**Client:** HTML5, CSS3, JavaScript
+**Client:** HTML5, CSS3, JavaScript, [PokéAPI](https://pokeapi.co/)
 
 ## Authors
 
@@ -18,12 +17,13 @@ image/video in a different way
 
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
+<img src="../../assets/screenshots/pokedex.png" alt="Pokédex Screenshot" width="600" />
 
 ## Roadmap
 
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+- [ ] When card clicked, more information shown
+- [ ] Allow user ti search for specific Pokémon
+- [ ] Able to fetch more generations of Pokémon rather than just Kanto region
 
 ## License
 

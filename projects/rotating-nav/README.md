@@ -1,12 +1,11 @@
-# 3D Background Boxes
+# Rotating Navigation
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project to style a different way of a navigation
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a fun way of making the site
+navigation appear on screen
 
 ## Tech Stack
 
@@ -16,14 +15,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/rotating-navigation.gif" alt="Rotating Navigation Gif" width="600"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Rotating-Navigation.png" alt="Rotating Navigation Screenshot" width="500" />
 
 ## License
 

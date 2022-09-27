@@ -1,12 +1,12 @@
-# 3D Background Boxes
+# Password Strength Background
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that as you type a password, the longer the password
+the clearer the background!
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a fun way to test password strength.
+At present any password can be entered as long as it is 10 or more characters
 
 ## Tech Stack
 
@@ -16,14 +16,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/password-strength-background.gif" alt="Password Strength Background Gif" width="500"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Password-Strength-Background.png" alt="Password Strength Background Screenshot" width="500" />
 
 ## License
 

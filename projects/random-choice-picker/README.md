@@ -1,12 +1,12 @@
-# 3D Background Boxes
+# Random Choice Picker
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project where a user can input various choices and the app will
+choose a choice for them!
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a component that takes in multiple
+choice and will randomly decide on a choice for a user
 
 ## Tech Stack
 
@@ -16,14 +16,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/random-choice-picker.gif" alt="Random Choice Picker Gif" width="600"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Random-Choice-Picker.png" alt="Random Choice Picker Screenshot" width="600" />
 
 ## License
 

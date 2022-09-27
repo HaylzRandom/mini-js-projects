@@ -1,12 +1,11 @@
-# 3D Background Boxes
+# Netflix Navigation
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project based on Netflix natvigation from a time ago
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was recreate the mobile navigation of the Netflix
+company homepage from a time ago
 
 ## Tech Stack
 
@@ -16,14 +15,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/netflix-navigation.gif" alt="Netflix Navigation Gif" width="500"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Netflix-Navigation.png" alt="netflix Navigation Screenshot" width="500" />
 
 ## License
 

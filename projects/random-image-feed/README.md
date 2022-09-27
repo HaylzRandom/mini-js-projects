@@ -1,16 +1,16 @@
-# 3D Background Boxes
+# Random Image Feed
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that will display a random selection of images from
+Unsplash API
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a component that will on load choose
+different images from Unsplash and display them
 
 ## Tech Stack
 
-**Client:** HTML5, CSS3, JavaScript
+**Client:** HTML5, CSS3, JavaScript, [Unsplash API](https://unsplash.com)
 
 ## Authors
 
@@ -18,12 +18,7 @@ image/video in a different way
 
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Random-Image-Feed.png" alt="3D Background Boxes Screenshot" width="600" />
 
 ## License
 

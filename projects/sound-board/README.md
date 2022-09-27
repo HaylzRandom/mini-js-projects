@@ -1,12 +1,11 @@
-# 3D Background Boxes
+# Sound Board
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that will play a sound as described on each button!
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a component to work with sound files
+that play a clip of sound when the relevant button is pressed
 
 ## Tech Stack
 
@@ -18,12 +17,7 @@ image/video in a different way
 
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Sound-Board.png" alt="Sound Board Screenshot" width="600" />
 
 ## License
 

@@ -1,12 +1,12 @@
-# 3D Background Boxes
+# Progress Steps
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that when buttons are clicked it will progress to the
+next step or retract to the previous step
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a component that can be utilised
+alongside a form to indicate the progression
 
 ## Tech Stack
 
@@ -16,14 +16,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/progress-steps.gif" alt="Progress Steps Gif" width="500"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Progress-Steps.png" alt="Progress Steps Screenshot" width="500" />
 
 ## License
 

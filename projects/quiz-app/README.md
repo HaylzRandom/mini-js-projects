@@ -1,12 +1,12 @@
-# 3D Background Boxes
+# Quiz App
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that will ask user questions and give them their result
+at the end
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a component that will display
+questions and once completed display the result at the end
 
 ## Tech Stack
 
@@ -18,12 +18,7 @@ image/video in a different way
 
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Quiz-App.png" alt="Quiz App Screenshot" width="600" />
 
 ## License
 

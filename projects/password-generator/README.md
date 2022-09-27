@@ -1,12 +1,13 @@
-# 3D Background Boxes
+# Password Generator
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that will allow a user to generate a password from
+different options and copy to their clipboard
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a component that will allow a user to
+select a number of options to generate a password and will also allow a user to
+copy the password to their clipboard
 
 ## Tech Stack
 
@@ -16,14 +17,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/password-generator.gif" alt="Password Generator Gif" width="500"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Password-Generator.png" alt="Password Generator Screenshot" width="500" />
 
 ## License
 

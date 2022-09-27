@@ -1,12 +1,11 @@
-# 3D Background Boxes
+# Notes App
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project of a todo app that you can create notes
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a todo app that a user can add notes,
+edit notes, delete notes and they will be saved into local storage for use later
 
 ## Tech Stack
 
@@ -16,14 +15,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/note-app.gif" alt="Notes App Gif" width="600"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Notes-App.png" alt="Notes App Screenshot" width="500" />
 
 ## License
 
