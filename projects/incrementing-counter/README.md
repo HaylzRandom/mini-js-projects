@@ -1,12 +1,12 @@
-# 3D Background Boxes
+# Incrementing Counter
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that will load a group of stats while incrementing on
+page load
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a component to display a collection of
+stats that on page load will increment in numbers till max.
 
 ## Tech Stack
 
@@ -16,14 +16,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/incrementing-counter.gif" alt="Incrementing Counter Gif" width="500"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Incrementing-Counter.png" alt="Increment Counter Screenshot" width="500" />
 
 ## License
 

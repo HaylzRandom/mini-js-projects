@@ -1,12 +1,11 @@
-# 3D Background Boxes
+# Mobile Tab Navigation
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript component that has a styled navigation for a mobile device
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a styled mobile tab navigation that
+utilises JavaScript to indicate which tab is currently selected
 
 ## Tech Stack
 
@@ -16,14 +15,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/mobile-tab-navigation.gif" alt="Mobile Tab Navigation Gif" width="400"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Mobile-Tab-Navigation.png" alt="Mobile Tab Navigation Screenshot" width="500" />
 
 ## License
 

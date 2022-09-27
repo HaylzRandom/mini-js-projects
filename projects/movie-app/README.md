@@ -1,29 +1,30 @@
-# 3D Background Boxes
+# Movie App
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that will allow a user to search for a movie and look
+at a movie overview and rating
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to utilise TheMovieDB API to display a
+collection of movies with an overview and rating but also to allow a user to
+search for movies
 
 ## Tech Stack
 
-**Client:** HTML5, CSS3, JavaScript
+**Client:** HTML5, CSS3, JavaScript,
+[TheMovieDB API]('https://api.themoviedb.org')
 
 ## Authors
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/movie-app.gif" alt="Movie App Gif" width="500"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Movie-App.png" alt="Movie App Screenshot" width="500" />
 
 ## License
 

@@ -1,12 +1,10 @@
-# 3D Background Boxes
+# Good, Cheap and Fast Checkboxes
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that displays checkboxes as toggles and will explain how to set up your project
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to decorate checkboxes as stylish checkboxes and utilises JavaScript to figure out how to make a project wokr
 
 ## Tech Stack
 
@@ -16,14 +14,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/good-cheap-checkboxes.gif" alt="Good, Cheap and Fast Checkboxes Gif" width="500"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Good-Cheap-Fast-Checkboxes.png" alt="Good, Cheap and Fast Checkboxes Screenshot" width="400" />
 
 ## License
 

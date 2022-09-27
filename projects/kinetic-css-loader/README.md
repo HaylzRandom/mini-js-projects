@@ -1,29 +1,27 @@
-# 3D Background Boxes
+# Kinetic CSS Loader
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small HTML and CSS project that animates some CSS
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create component that can be used as a
+spinner/loading component while a page loads
 
 ## Tech Stack
 
-**Client:** HTML5, CSS3, JavaScript
+**Client:** HTML5, CSS3
 
 ## Authors
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/kinetic-css-loader.gif" alt="Kinetic CSS Loader Gif" width="200"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/kinetic-css-loader.png" alt="Kinetic CSS Loader Screenshot" width="400" />
 
 ## License
 

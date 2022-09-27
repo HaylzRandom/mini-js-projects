@@ -1,12 +1,13 @@
-# 3D Background Boxes
+# Image Carousel
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that will display a collection of photos that can be
+controlled manually or automatically scrolls
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a component to display a collections
+of images in a carousel that will autoplay and users can manually navigate
+through
 
 ## Tech Stack
 
@@ -16,14 +17,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/image-carousel.gif" alt="Image Carousel Gif" width="500"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Image-Carousel.png" alt="Image Carousel Screenshot" width="400" />
 
 ## License
 

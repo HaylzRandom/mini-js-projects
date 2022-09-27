@@ -1,12 +1,12 @@
-# 3D Background Boxes
+# Hoverboard
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that will display a colour while hovering over the
+screen with a cool effect
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a fun little component that when the
+screen is hovered over a trail of colours will appear
 
 ## Tech Stack
 
@@ -16,14 +16,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/hoverboard.gif" alt="Hoverboard Gif" width="500"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Hoverboard.png" alt="Hoverboard Screenshot" width="400" />
 
 ## License
 
