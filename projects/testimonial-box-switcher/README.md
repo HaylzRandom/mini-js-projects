@@ -1,12 +1,11 @@
-# 3D Background Boxes
+# Testimonial Box Switcher
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that displays a selection of testimonials
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a component to show multiple
+testimonials to be displayed on a webpage that will auto rotate through
 
 ## Tech Stack
 
@@ -16,14 +15,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/testimonial-switcher.gif" alt="Testimonial Box Switcher Gif" width="600"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Testimonial-Box-Switcher.png" alt="Testimonial Box Switcher Screenshot" width="600" />
 
 ## License
 

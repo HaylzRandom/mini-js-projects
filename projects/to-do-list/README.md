@@ -1,12 +1,12 @@
-# 3D Background Boxes
+# To Do List
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that will allow a user to create a todo list and
+complete and delete todos
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a To Do app that will store the list
+of todos in local storage
 
 ## Tech Stack
 
@@ -16,14 +16,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/to-do-list.gif" alt="To Do List Gif" width="600"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/To-Do-List.png" alt="To Do List Screenshot" width="600" />
 
 ## License
 

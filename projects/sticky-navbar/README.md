@@ -1,12 +1,12 @@
-# 3D Background Boxes
+# Sticky Navbar
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project to make the navigation bar stick to top of screen as
+user scrolls
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create one of the many ways a navigation bar
+can look on a website
 
 ## Tech Stack
 
@@ -16,14 +16,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/sticky-navbar.gif" alt="Sticky Navbar Gif" width="600"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/sticky-navbar.png" alt="Sticky Navbar Screenshot" width="500" />
 
 ## License
 

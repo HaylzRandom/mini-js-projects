@@ -1,12 +1,12 @@
-# 3D Background Boxes
+# Toast Notifications
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that when button is clicked a toast notification will
+pop up in the corner!
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to recreate toast notifications from
+[React Toastify](https://fkhadra.github.io/react-toastify/introduction)
 
 ## Tech Stack
 
@@ -16,14 +16,13 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/toast-notification.gif" alt="Toast Notifications Gif" width="600"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Toast-Notifications.png" alt="Toast Notifications Screenshot" width="500" />
 
 ## License
 

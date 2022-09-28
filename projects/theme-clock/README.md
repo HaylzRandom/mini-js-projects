@@ -1,12 +1,13 @@
-# 3D Background Boxes
+# Theme Clock
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that displays the current time and date and allows user
+to choose light/dark mode
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a component that will display the
+local time, date and will also allow a user to choose between light and dark
+mode
 
 ## Tech Stack
 
@@ -16,14 +17,17 @@ image/video in a different way
 
 - [@haylzrandom](https://www.github.com/haylzrandom)
 
+## Demo
+
+<img src="../../assets/gifs/theme-clock.gif" alt="Theme Clock Gif" width="400"  />
+
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
+<img src="../../assets/screenshots/Theme-Clock.png" alt="Theme Clock Screenshot" width="500" />
 
-## Roadmap
+# Roadmap
 
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+- [ ] Auto set colour theme to user system settings
 
 ## License
 

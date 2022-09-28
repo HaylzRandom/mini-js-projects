@@ -1,12 +1,11 @@
-# 3D Background Boxes
+# Verify Account UI
 
-Small JS project that will display a GIF as a full size box and when the Magic
-button is clicked, magic happens!
+Small JavaScript project that provides a UI for 2-Factor Authentication
 
 ## Usage
 
-The purpose of this project was to create a fun little component ti display an
-image/video in a different way
+The purpose of this project was to create a UI to be used with 2-Factor
+Authentication system
 
 ## Tech Stack
 
@@ -18,12 +17,7 @@ image/video in a different way
 
 ## Screenshots
 
-![3D Background Boxes](../../assets/screenshots/3D-Background-Boxes.png)
-
-## Roadmap
-
-- Allow user to input link to their own GIF
-- Allow user to change colour of boxes
+<img src="../../assets/screenshots/Verify-Account-UI.png" alt="Verify Account UI Screenshot" width="600" />
 
 ## License
 
