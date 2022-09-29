@@ -1,4 +1,4 @@
-# Mini JavaScript Projects
+# 50+ Mini JavaScript Projects
 
 A collection of mini JavaScript projects such as navigation components, toast
 notifcations and other random potentially reusable components
@@ -75,6 +75,7 @@ that may be of use later on in other projects
 | 49  | To Do List                    | [Repo](./projects/to-do-list/)                   |
 | 50  | Catch Game                    | [Repo](./projects/catch-game/)                   |
 | 51  | Analogue Clock                | [Repo](./projects/analogue-clock/)               |
+| 52  | Basic Calculator              | [Repo](./projects/basic-calculator/)             |
 
 ## License
 
