@@ -74,6 +74,7 @@ that may be of use later on in other projects
 | 48  | Random Image Feed             | [Repo](./projects/random-image-feed/)            |
 | 49  | To Do List                    | [Repo](./projects/to-do-list/)                   |
 | 50  | Catch Game                    | [Repo](./projects/catch-game/)                   |
+| 51  | Analogue Clock                | [Repo](./projects/analogue-clock/)               |
 
 ## License
 
